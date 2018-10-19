@@ -1,0 +1,114 @@
+.container {
+    width: 360px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.clock {
+    width: 300px;
+    margin: 10 auto;
+    padding: 15px;
+    color: #007;
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 400px;
+}
+
+#Date {
+	margin: 9 auto;
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    text-shadow: 0 0 4px #00c6ff;
+}
+
+ul.time {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul.time li.time {
+    display: inline;
+    font-size: 4em;
+    text-align: center;
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px #00c6ff;
+    line-height: 80px;
+    height: 80px;
+}
+
+#point {
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: super;
+}
+
+/* Simple Animation */
+@-webkit-keyframes mymove {
+    0% {opacity: 1.0;
+    text-shadow: 0 0 10px #00c6ff;
+}
+
+50% {
+    opacity: 0;
+    text-shadow: none;
+}
+
+100% {
+    opacity: 1.0;
+    text-shadow: 0 0 10px #00c6ff;
+}
+}
+
+@-moz-keyframes mymove {
+    0% {
+        opacity: 1.0;
+        text-shadow: 0 0 10px #00c6ff;
+    }
+
+    50% {
+        opacity: 0;
+        text-shadow: none;
+    }
+
+    100% {
+        opacity: 1.0;
+        text-shadow: 0 0 10px #00c6ff;
+    };
+}
+
+/* --- ボックス --- */
+div.section {
+width: 330px; /* ボックスの幅 */
+background-color: #ffffff; /* ボックスの背景色 */
+border: 1px #c0c0c0 solid; /* ボックスの境界線 */
+font-size: 80%; /* ボックスの文字サイズ */
+position: absolute;
+display: block;
+top: 180px;
+left: 400px;
+height: 231px;
+
+}
+
+/* --- 見出し --- */
+div.section h3 {
+margin: 0; /* 見出しのマージン */
+padding: 6px 10px; /* 見出しのパディング（上下、左右） */
+background-color: #f5f5f5; /* 見出しの背景色 */
+border-bottom: 1px #c0c0c0 solid; /* 見出しの下境界線 */
+font-size: 100%; /* 見出しの文字サイズ */
+}
+
+/* --- ボックス内の段落 --- */
+div.section p {
+margin: 5px 10px; /* 段落のマージン（上下、左右） */
+}

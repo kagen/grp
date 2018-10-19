@@ -1,0 +1,66 @@
+@CHARSET "UTF-8";
+
+#outdiv {
+	background: #fff;
+	margin: 100 auto;
+	width: 350px;
+	padding: 10px;
+	text-align: center;
+	/* border-radius */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	/* box-shadow */
+	-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px;
+}
+
+video#v {
+	width: 320px;
+	Height: 280px;
+}
+
+#infopop {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity = 80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+	border: 2px #319ddd solid;
+	background-color: #f2fdfb;
+	padding: 20px;
+	color: #3249a9;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-style: inherit;
+	text-decoration: inherit;
+	line-height: 1.5em;
+	letter-spacing: 0.02em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px 1px #375481;
+	-webkit-box-shadow: 2px 2px 5px 1px #375481;
+	box-shadow: 2px 2px 5px 1px #375481;
+}
+
+.graysmallradius {
+	border: 2px #dedede solid;
+	padding: 10px;
+	margin:10px 0px 10px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+.fc-sat {
+	color:blue;
+	background-color: #eff7ff;
+}
+.fc-sun {
+	color:red;
+	background-color: #fdd;
+}
